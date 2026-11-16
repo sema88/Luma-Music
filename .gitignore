@@ -1,0 +1,27 @@
+# Build output and temporary files
+/dist/
+/artifacts/
+/bin/
+/obj/
+/.test-data/
+*.log
+*.tmp
+.vs/
+.idea/
+
+# Credentials and local user data
+.env
+.env.*
+!.env.example
+account.dat
+settings.json
+instance*.json
+library*.json
+manual-library.json
+local-library.json
+lyrics-cache.json
+/WebView2/
+/User Data/
+*.pfx
+*.p12
+*.pem
